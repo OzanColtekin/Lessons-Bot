@@ -35,7 +35,7 @@ class JoinZoom():
             exit()
 
     def lisansinfo(self):
-        if self.information[0] != "l2318003":
+        if self.information[0] != "usiskullaniciadi":
             messagebox.showerror(title="HATA!", message="Bu program kişiye özel lisanslanmaktadır başkası tarafından kullanılamaz!")
             exit()
 
